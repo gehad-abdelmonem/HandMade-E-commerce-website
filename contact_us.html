@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <link rel="stylesheet" href="./css/contact_us.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Work+Sans&display=swap" rel="stylesheet">
+    <!--link icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--header-->
+  <header class="header">
+        <div class="top">
+            <p id="offer"><b>Novamber Offers Up to 20%</b></p> 
+        </div>
+            <div id="nav">
+                <img src="./img/finall.png" alt="" id="l">
+                <span id="logo">Gehad Handmade_Gallary</span>
+                <a href="./home.html" class="icon a1">HOME</a>
+                <a href="./about.html" class="icon">ABOUT</a>
+                <a href="./contact_us.html" class="icon">CONTACT US</a>
+            </div>       
+  </header>
+     <!--contactus top photo-->
+     <section >
+        <div class="abouttopphoto">
+        </div>
+    </section>
+  <!--form-->
+    <div class="container">
+        <table >
+            <form id="form" >    
+                <tr>
+                    <td class="c"><label for="text">Name</label></td>
+                    <td>
+                        <input type="text" id="text" name="name" value="" placeholder="  Your full name" >
+                        <p id="p1" style="display:none">Enter a valid name</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="c"><label for="Email">Email</label></td>
+                    <td>
+                        <input type="text" id="Email" name="email" value="" placeholder="  ex:myname@example.com">
+                        <p id="p2" style="display:none">Enter a valid e-mail addresse</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="c"><label for="phone">Phone Number</label></td>
+                    <td>
+                        <input type="text" id="phone" name="phone" value="" placeholder="  your phone number">
+                        <p id="p3" style="display:none">Enter valid phone number</p>
+                    </td>
+                <tr>
+                    <td class="c"><label for="textarea1">Address</label></td>
+                    <td>
+                        <textarea name="" id="textarea1" cols="30" rows="5" placeholder=" your address"></textarea>
+                        <p id="p4" style="display:none">This field is required</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="c"><label for="textarea2">Message</label></td>
+                    <td>
+                        <textarea name="" id="textarea2" cols="30" rows="5" placeholder=" we suggest you detail your product requirements" ></textarea>
+                        <p id="p5" style="display:none">This field is required</p>
+                    </td>
+                </tr>
+
+                <tr >
+                    <td colspan="2">
+                        <input type="submit" id="submit" class="s" value="contact us">
+                    </td>
+                </tr>
+            </form>
+           </table>  
+    </div>
+        
+  <!--footer-->  
+  <footer>
+        <button id="gototop"> ^</button>
+    
+        <div id="first_partf">
+            <div id="left">
+                <img src="./img/finall.png" alt="" id="logof">
+                <p class="pleft">Follow us:</p>
+                <img src="./img/instagram.png" alt="" id="instagram" onclick="goToInstagram()">
+                <img src="./img/facebook.png" alt="" id="facebook" onclick="goToFacebook()">
+            </div>
+            <div class = "vertical"></div>
+            <div id="right">
+                <p id="c">Contact Us</p>
+                <p id="c1">If you have any question.please
+                    <br>
+                    contact us at <a href="mailto:gehadabdelmonam@gmail.com"><span id="mail">gehadabdelmonam@gmail.com</span></a>
+                </p>
+                <i class="fa fa-mobile-phone" id="mobile_icon"></i>
+                <a href="tel:01012897236" id="mobile_num1">01012897236</a>
+                <br>
+                <a href="tel:01097186753"  id="mobile_num2">01097186753</a>
+            </div>
+        </div>
+    
+        <div id="last">
+            <p>&#169; 2022 Gehad Handmade_Gallary</p>
+        </div>
+    </footer>
+    
+<script src="./js/contact_us.js"></script>
+</body>
+</html>

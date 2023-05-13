@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <!--font links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- link css file-->
+    <link rel="stylesheet" href="./css/home.css">
+    <!--link icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="header">
+    <div class="top">
+        <p id="offer"><b>Novamber Offers Up to 20%</b></p> 
+    </div>
+        <div id="nav">
+            <img src="./img/finall.png" alt="" id="l">
+            <span id="logo">Gehad Handmade_Gallary</span>
+            <a href="./home.html" class="icon a1">HOME</a>
+            <a href="./about.html" class="icon">ABOUT</a>
+            <a href="./contact_us.html" class="icon">CONTACT US</a>
+            <i class="fa fa-shopping-cart" id="card_icon"  style="font-size:48px;color:black"></i>
+            <span id="ncard">0</span>
+        </div>       
+    </header>
+    <!--slider-->
+    <div class="container">
+        <div>
+            <img id="img" src="./img/first.jpg" alt="">
+        </div>
+        <div class="button">
+            <button class="b1 b5" onclick="showNext()">&#60;</button>
+            <button class="b1 b6" onclick="showPrev()">&#62;</button>
+        </div>
+    </div>
+    <!--best seller items-->
+    <div class="bestseller_items">
+        <h2 id="bestseller">Bestsellers Items</h2>
+    </div>
+    <div class="bestSellerPhotos">
+       <div class="bestimges1 bestimgehover">
+            <img src="./img/photo13.jpg" alt="" class="bestimg">
+            <p class="p1" style="color:rgb(173, 170, 170)"><del>400 EPG</del></p>
+            <p class="p1">350 EPG</p>
+       </div>
+       <div class="bestimges2 bestimgehover">
+            <img src="./img/photo14.jpg" alt="" class="bestimg">
+            <p class="p1" style="color:rgb(173, 170, 170)"><del>400 EPG</del></p>
+            <p class="p1">350 EPG</p>
+        </div>
+       <div class="bestimges3 bestimgehover">
+            <img src="./img/six.jpg" alt="" class="bestimg">
+            <p class="p1" style="color:rgb(173, 170, 170)"><del> 450 EPG</del></p>
+            <p class="p1">400 EPG</p>
+    </div>
+       <div class="bestimges4 bestimgehover">
+            <img src="./img/third.jpg" alt="" class="bestimg">
+            <p class="p1" style="color:rgb(173, 170, 170)"><del> 450 EPG</del></p>
+            <p class="p1">400 EPG</p>
+        </div>
+
+    </div>
+    <!--Categories-->
+    <div class="par_Categories">
+        <h2 class="cat">Categories</h2>
+        <p class="cat">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+           sed do eiusmod <br> incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <!--Categories button-->
+    <div class="button_category">
+        <button class="button1" onclick="showHandKerchief()">Embroidered kerchief</button>
+        <button class="button1" onclick="showEngagementTray()">Engagement Tray </button>
+        <button class="button1" onclick="showFingerprint()">Fingerprint tableau</button>
+
+    </div>
+    <!-- Categories items-->
+
+    <!--hand_kerchief part 1-->
+    <div class="hand_kerchief_cat1" >
+        <div class="hand_kerchief1 bestimgehover">
+             <img src="./img/cat1.jpg" alt="" class="hand_kerchief_part1">
+             <span class="price">450 EPG</span> <br>
+             <button class="card_button" id="card1">ADD TO CHART</button>
+        </div>
+        <div class="hand_kerchief2 bestimgehover" >
+             <img src="./img/cat2.jpg" alt="" class="hand_kerchief_part1">
+             <span class="price"> 370  EPG</span> <br>
+             <button  class="card_button" id="card1">ADD TO CHART</button>
+         </div>
+        <div class="hand_kerchief3 bestimgehover">
+             <img src="./img/cat3.jpg" alt="" class="hand_kerchief_part1">
+             <span class="price">450 EPG</span> <br>
+             <button class="card_button" id="card3">ADD TO CHART</button>
+     </div>
+        <div class="hand_kerchief4 bestimgehover">
+             <img src="./img/cat4.jpg" alt="" class="hand_kerchief_part1">
+             <span class="price">400 EPG</span> <br>
+             <button class="card_button" id="card4">ADD TO CHART</button>
+         </div>
+    </div>
+ <!--hand_kerchief part 2-->
+    <div class="hand_kerchief_cat2" >
+        <div class="hand_kerchief5 bestimgehover">
+             <img src="./img/cat5.jpg" alt="" class="hand_kerchief_part1">
+             <span class="price">450 EPG</span> <br>
+             <button class="card_button" id="card5">ADD TO CHART</button>
+        </div>
+        <div class="hand_kerchief6 bestimgehover">
+             <img src="./img/cat6.jpg" alt="" class="hand_kerchief_part1">
+             <span class="price"> 370  EPG</span> <br>
+             <button  class="card_button" id="card6">ADD TO CHART</button>
+         </div>
+        <div class="hand_kerchief7 bestimgehover">
+             <img src="./img/cat7.jpg" alt="" class="hand_kerchief_part1">
+             <span class="price">450 EPG</span> <br>
+             <button class="card_button" id="card6">ADD TO CHART</button>
+     </div>
+        <div class="hand_kerchief8 bestimgehover">
+             <img src="./img/cat8.jpg" alt="" class="hand_kerchief_part1">
+             <span class="price">400 EPG</span> <br>
+             <button class="card_button" id="card7">ADD TO CHART</button>
+         </div>
+    </div>
+
+    <!--hand_kerchief part 3-->
+    <div class="hand_kerchief_cat3" >
+        <div class="hand_kerchief9 bestimgehover">
+             <img src="./img/cat9.jpg" alt="" class="hand_kerchief_part1">
+             <span class="price">450 EPG</span> <br>
+             <button class="card_button" id="card8">ADD TO CHART</button>
+        </div>
+        <div class="hand_kerchief10 bestimgehover">
+             <img src="./img/cat10.jpg" alt="" class="hand_kerchief_part1">
+             <span class="price"> 370  EPG</span> <br>
+             <button  class="card_button" id="card9">ADD TO CHART</button>
+         </div>
+        <div class="hand_kerchief11 bestimgehover">
+             <img src="./img/cat11.jpg" alt="" class="hand_kerchief_part1">
+             <span class="price">450 EPG</span> <br>
+             <button class="card_button" id="card10">ADD TO CHART</button>
+     </div>
+        <div class="hand_kerchief12 bestimgehover">
+             <img src="./img/cat12.jpg" alt="" class="hand_kerchief_part1">
+             <span class="price">400 EPG</span> <br>
+             <button class="card_button" id="card11">ADD TO CHART</button>
+         </div>
+    </div>
+<!--Engagement Tray part1-->
+<div class="Engagement_Tray_part1">
+    <div class="Engagement_Tray1 bestimgehover">
+         <img src="./img/tray1.jpg" alt="" class="Engagement_Tray_img">
+         <span class="price">450 EPG</span> <br>
+         <button class="card_button" id="card12">ADD TO CHART</button>
+    </div>
+    <div class="Engagement_Tray2 bestimgehover">
+         <img src="./img/tray2.jpeg" alt="" class="Engagement_Tray_img">
+         <span class="price"> 350  EPG</span> <br>
+         <button  class="card_button" id="card12">ADD TO CHART</button>
+     </div>
+    <div class="Engagement_Tray3 bestimgehover">
+         <img src="./img/tray4.jpeg" alt="" class="Engagement_Tray_img">
+         <span class="price">400 EPG</span> <br>
+         <button class="card_button" id="card13">ADD TO CHART</button>
+ </div>
+    <div class="Engagement_Tray4 bestimgehover">
+         <img src="./img/tray3.jpg" alt="" class="Engagement_Tray_img">
+         <span class="price">450 EPG</span> <br>
+         <button class="card_button" id="card14">ADD TO CHART</button>
+     </div>
+</div>
+<!--Engagement Tray part2-->
+<div class="Engagement_Tray_part2">
+    <div class="Engagement_Tray5 bestimgehover">
+         <img src="./img/tray5.jpg" alt="" class="Engagement_Tray_img">
+         <span class="price">250 EPG</span> <br>
+         <button class="card_button" id="card15">ADD TO CHART</button>
+    </div>
+    <div class="Engagement_Tray6 bestimgehover">
+         <img src="./img/tray6.jpeg" alt="" class="Engagement_Tray_img">
+         <span class="price"> 500 EPG</span> <br>
+         <button  class="card_button" id="card16">ADD TO CHART</button>
+     </div>
+    <div class="Engagement_Tray7 bestimgehover">
+         <img src="./img/tray7.jpeg" alt="" class="Engagement_Tray_img">
+         <span class="price">450 EPG</span> <br>
+         <button class="card_button" id="card17">ADD TO CHART</button>
+ </div>
+    <div class="Engagement_Tray8 bestimgehover">
+         <img src="./img/tray8.jpg" alt="" class="Engagement_Tray_img">
+         <span class="price">250 EPG</span> <br>
+         <button class="card_button" id="card18">ADD TO CHART</button>
+     </div>
+</div>
+
+<!--Fingerprint tableau-->
+<div class="Fingerprint_tableau">
+    <div class="Fingerprint_img1 bestimgehover">
+         <img src="./img/print1.jpeg" alt="" class="Fingerprint_tableau_img">
+         <span class="price">180 EPG</span> <br>
+         <button class="card_button" id="card19">ADD TO CHART</button>
+    </div>
+    <div class="Fingerprint_img2 bestimgehover">
+         <img src="./img/print2.jpg" alt="" class="Fingerprint_tableau_img">
+         <span class="price"> 150 EPG</span> <br>
+         <button  class="card_button" id="card20">ADD TO CHART</button>
+     </div>
+    <div class="Fingerprint_img3 bestimgehover">
+         <img src="./img/print3.jpg" alt="" class="Fingerprint_tableau_img">
+         <span class="price">120 EPG</span> <br>
+         <button class="card_button" id="card21">ADD TO CHART</button>
+ </div>
+    <div class="Engagement_Tray8 bestimgehover">
+         <img src="./img/print4.jpg" alt="" class="Fingerprint_tableau_img">
+         <span class="price">150 EPG</span> <br>
+         <button class="card_button" id="card22">ADD TO CHART</button>
+     </div>
+</div>
+<!--footer-->
+<footer>
+    <button id="gototop"> ^</button>
+
+    <div id="first_partf">
+        <div id="left">
+            <img src="./img/finall.png" alt="" id="logof">
+            <p class="pleft">Follow us:</p>
+            <img src="./img/instagram.png" alt="" id="instagram" onclick="goToInstagram()">
+            <img src="./img/facebook.png" alt="" id="facebook" onclick="goToFacebook()">
+        </div>
+        <div class = "vertical"></div>
+        <div id="right">
+            <p id="c">Contact Us</p>
+            <p id="c1">If you have any question.please
+                <br>
+                contact us at <a href="mailto:gehadabdelmonam@gmail.com"><span id="mail">gehadabdelmonam@gmail.com</span></a>
+            </p>
+            <i class="fa fa-mobile-phone" id="mobile_icon"></i>
+            <a href="tel:01012897236" id="mobile_num1">01012897236</a>
+            <br>
+            <a href="tel:01097186753"  id="mobile_num2">01097186753</a>
+        </div>
+    </div>
+
+    <div id="last">
+        <p>&#169; 2022 Gehad Handmade_Gallary</p>
+    </div>
+</footer>
+
+    <script src="./js/home.js"></script>
+</body>
+</html>
